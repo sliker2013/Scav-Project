@@ -1,1 +1,54 @@
 
+http://www.ac-web.org/forums/showthread.php?211443-Official-AC-Web-Ultimate-Repack-(3-3-5a)&p=2148781&viewfull=1#post2148781
+
+
+
+
+Benötigte Programme Winrar/winzip
+und ein Mysql editor wie z.b. Navicat
+
+Als erstes Wählen sie zwischen den Windows Versionen aus 
+Download version 0.6 -- 
+32 bit
+64 Bit 
+Und Laden sie es Runter und Entpacken sie es an einen Ort Ihrer Wahl 
+
+
+Danach Laden sie sich die 3 Datenbank Tabellen runter Auth() | Characters() | World()
+und die Server Files dbc maps vmaps mmaps herruntere und entpacken sie es in den zuvor
+herruntergeladenen und entpackten Core Ordner dort befindet sich ein data ordner Dort kommen nur die ordner dbc maps vmaps mmaps 
+rein.  Beispiel Bild http://imgur.com/0u4eS5t ...
+
+nun kommen wir zum lustigen teil.
+
+wir gehen in den haubt ordner und starten zuerst einmal die ControlPanel.exe dort wählen sie bei en Roten Flagen ersteinmal die 
+server .exe'en aus z.b. ( Mysql = _Server\mysql\bin\mysqld.exe ) Logon = Core\authserver.exe World = Core\worldserver.exe
+
+so können sie dann mit dem Play Button Einfach die server starten 
+
+nachdehm auch Mysql Leuft öffen sie z.b. Navicat und stellen eine Localhost verbindung her.
+und erstellen 3 Tabbellen Auth() | Characters() | World() und Patchen die zuvor geladenen gleichnamigen .sql Files in
+die gleich namigen Tabellen ein 
+
+die server configs ambesten mit dem Editor: Notepad++ öffen (Kostenloss) und gewünschste anpassungen machen.
+
+danach starten sie über das Tool ControlPanel.exe nun zuerst den Logon dann den World Server 
+
+nun Brauchen sie auch noch einen World of Warcaft Client (Spiel) auf dem Path stand von 3.3.5a (jeder Dload im Netz ist legal)
+
+nach dem sie dies gemacht haben gehen sie in den WoW ordner /Data/deDE oder enGB oder enUS/ und öffnen mit Notepad++ die realmlist.wtf
+und löschen den inhalt und fügen das ein: set realmlist 127.0.0.1
+
+dann starten sie den 3.3.5a Spiele Client und Loggen sich stadt der Email mit 
+
+Username: admins
+Password: admins
+ein und schon gehts loss 
+
+alternative da alleine spielen zimmlich langweilig ist 
+kann ich den Deutschen Server 
+http://www.frostmourne.eu/ empfehlen 
+
+alles free to Play von Wotlk & Cata ist der entfaltung freien lauf zu lassen ;)
+
+bei fragen nur zu 
